@@ -2,20 +2,17 @@
 
 ## Description 
 
-In this assignment, we reviewed and refactored existing code for a static webpage and added appropriate semantic HTML elements.  
+In this assignment, I reviewed and refactored existing code for a static webpage and added appropriate semantic HTML elements.  The core of the module was on HTML and CSS formatting and use.  For the assignment, I focused on updating the HTML fist to try and consoldiate as much as possible, as well as identify any potential semantic updates that might be needed.  This set the stage for CSS updates that ultimately made the webpage more flexible and rhobust for future updates.
 
-* HTML structure and semantics
-* Webpage formatting through CSS file
-* Selector usage for elements and classes
-* Flexbox usage
-* Pseudo-element selectors
+In addition to the HTML and CSS updates, I also added functionality for small view ports using flexbox properties in CSS.  I also added contextual highlighting to the navbar links using pseudo-element selectors in CSS.
 
 
 ## Table of Contents
 
 * [Updates to HTML](#updates-to-html)
 * [Updates to CSS](#updates-to-css)
-* [Review of Refactor](#review-of-refactor)
+* [Bonus Items](#bonus-items)
+* [Screenshots](#Screenshots)
 
 
 ## Updates to HTML
@@ -95,4 +92,19 @@ There were also multiple selectors that implemented the same properties across m
 In addition to the clean up, I also added flexbox functionality to the CSS
 
 
-## Review of Refactor
+## Bonus Items
+
+
+### Flexbox
+I added additonal functionality that allows the the `<aside>` elements to wrap around the `<article>` element allowing for more flexibility in smaller viewports.  Using `<main>` as the container and the `<article>` and `<aside>` elements as the items to flex.  As the webpage shrinks in width, eventually the `<aside>` element wrap below the `<article>` element.
+
+
+### Pseudo Elements
+I also enabled contextual highlighting for the navbar items using style properties on the `a:hover` pseudo element.  This will provide feedback to the user about the links in the navbar.
+
+## Screenshots
+
+
+
+
+
