@@ -1,18 +1,22 @@
+/* consolidated this font-family to evenything */
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+/* consolidated this font-family to header and footer */
+header, 
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
-h1 {
-    font-size: 48px;
-}
-
+/* made header a flexbox for portability to smaller viewing ports and to make the nav links wrap-able */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +27,12 @@ header {
     width: 100%;
 }
 
+/* converted to element selector and removed display property */
+header h1 {
+    font-size: 48px;
+}
+
+/* made nav a flexbox for portability to smaller viewing ports and to make the nav links wrap-able */
 nav {
     display: flex;
     justify-content: space-between;
@@ -30,7 +40,7 @@ nav {
     float: right;
 }
 
-nav li {
+nav ul li {
     font-size: 20px;
     display: inline-block;
     padding-top: 15px;
@@ -39,12 +49,13 @@ nav li {
     list-style-type: none;
 }
 
+/* made this exclusive to a elements in the nav bar making usual funcationality normal in the rest of the document */
 nav a {
-        color: #ffffff;
-        text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-
+/* added feedback for hyperlinks in nav, will see color change on hover */
 nav a:hover, .seo {
     color: #d9dcd6;
 }
@@ -82,8 +93,7 @@ article section {
     margin-bottom: 20px;
     padding: 50px;
     width: 100%;
-    /* replaced height with min-height */
-    min-height: 300px;
+    min-height: 300px;  /* replaced height with min-height, retained value */
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -143,12 +153,3 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-
-/* 
-@media all and (max-width: 768px) {
-    main { flex: 1 0 0; } 
-    article section {
-        background-color: #00FFFF;
-    }
-} 
-*/
