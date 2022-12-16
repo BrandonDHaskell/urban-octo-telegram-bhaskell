@@ -6,6 +6,8 @@ In this assignment, I reviewed and refactored existing code for a static webpage
 
 In addition to the HTML and CSS updates, I also added functionality for small view ports using flexbox properties in CSS.  I also added contextual highlighting to the navbar links using pseudo-element selectors in CSS.
 
+Checkout the live updates [here](https://bhaskell7901.github.io/urban-octo-telegram-bhaskell/)!
+
 
 ## Table of Contents
 
@@ -105,9 +107,11 @@ I also enabled contextual highlighting for the navbar items using style properti
 ## Screenshots
 
 *Large screen view*
-![large screen view](https://github.com/bhaskell7901/urban-octo-telegram-bhaskell/blob/main/Develop/assets/images/ReferenceImages/urban-octo-full-screen-view.png)
+
+![large screen view](https://github.com/bhaskell7901/urban-octo-telegram-bhaskell/blob/main/assets/images/ReferenceImages/urban-octo-full-screen-view.png)
 
 -----
 
 *Small screen view*
-![large screen view](https://github.com/bhaskell7901/urban-octo-telegram-bhaskell/blob/main/Develop/assets/images/ReferenceImages/urban-octo-small-screen-view.png)
+
+![large screen view](https://github.com/bhaskell7901/urban-octo-telegram-bhaskell/blob/main/assets/images/ReferenceImages/urban-octo-small-screen-view.png)
