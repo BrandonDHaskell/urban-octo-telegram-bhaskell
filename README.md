@@ -13,11 +13,46 @@ In this assignment, we reviewed and refactored existing code for a static webpag
 
 ### Updates to HTML
 
+There were many `div` elements that were referenced as classes or some sort of ID that could be better utilized with semantic HTML elements.  The `div` elements replaced were:
+* `<div class="header">` --> `<header>`
+* `<div>` --> `<nav>`
+* added a `<main>` element between header and footer
+* `<div class="content">` --> `<main>`
+* `<div class="search-engine-optimization">` --> `<section>`
+* `<div class="online-reputation-management">` --> `<section>`
+* `<div class="social-media-marketing">` --> `<section>`
+* `<div class="benefits">` --> `<aside>`
+* `<div class="benefits-lead">` --> `<section>`
+* `<div class="benefits-brand">` --> `<section>`
+* `<div class="benefits-cost">` --> `<section>`
+* `<div class="footer">` --> `<footer>`
+
+Making these updates gave the `<body>` of the page the following structure:
+
+```HTML
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <article></article>
+        <aside></aside>
+    </main>
+    <footer></footer>
+</body>
+
+```
+
+The `<article>` and `<aside>` elements were further separated with `<section>` elements.  Making these updates simplified the CSS by reducing the need for references to classes and IDs and made the HTML more semantically readible.  Removing the reliance on the IDs reduced code duplication in the CSS file.
+
 
 ### Updates to CSS
 
 
-### 
+
+### Review of Refactor
+
+
 
 ## Installation
 
