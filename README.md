@@ -104,7 +104,10 @@ I also enabled contextual highlighting for the navbar items using style properti
 
 ## Screenshots
 
+*Large screen view*
+![large screen view](https://github.com/bhaskell7901/urban-octo-telegram-bhaskell/blob/main/Develop/assets/images/ReferenceImages/urban-octo-full-screen-view.png)
 
+-----
 
-
-
+*Small screen view*
+![large screen view](https://github.com/bhaskell7901/urban-octo-telegram-bhaskell/blob/main/Develop/assets/images/ReferenceImages/urban-octo-small-screen-view.png)
